@@ -1,0 +1,6 @@
+spring:
+  quartz:
+    properties:
+      org.quartz.scheduler.instanceName: DMPCluster
+      org.quartz.scheduler.instanceId: AUTO
+      org.quartz.jobStore.isClustered: true
